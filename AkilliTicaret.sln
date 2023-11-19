@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkilliTicaretWebApi", "AkilliTicaretWebApp\AkilliTicaretWebApi.csproj", "{C3D3356E-3404-4531-A02A-0F7CD884C9C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{E0F3701D-D08C-4BDC-BD9A-082D7350E9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.Core", "Libraries.Core\Libraries.Core.csproj", "{7DED273F-058A-4901-92E0-A0045BB51725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.Services", "Libraries.Services\Libraries.Services.csproj", "{96C80A2A-4D90-4C80-AA75-E270BCAF664B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkilliTicaretWebShare", "AkilliTicaretWebShare\AkilliTicaretWebShare.csproj", "{CB3E3C35-580D-47F9-81A2-9810DAB3C447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3D3356E-3404-4531-A02A-0F7CD884C9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D3356E-3404-4531-A02A-0F7CD884C9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D3356E-3404-4531-A02A-0F7CD884C9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D3356E-3404-4531-A02A-0F7CD884C9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DED273F-058A-4901-92E0-A0045BB51725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DED273F-058A-4901-92E0-A0045BB51725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DED273F-058A-4901-92E0-A0045BB51725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DED273F-058A-4901-92E0-A0045BB51725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C80A2A-4D90-4C80-AA75-E270BCAF664B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C80A2A-4D90-4C80-AA75-E270BCAF664B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C80A2A-4D90-4C80-AA75-E270BCAF664B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C80A2A-4D90-4C80-AA75-E270BCAF664B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3E3C35-580D-47F9-81A2-9810DAB3C447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3E3C35-580D-47F9-81A2-9810DAB3C447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3E3C35-580D-47F9-81A2-9810DAB3C447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3E3C35-580D-47F9-81A2-9810DAB3C447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DED273F-058A-4901-92E0-A0045BB51725} = {E0F3701D-D08C-4BDC-BD9A-082D7350E9F0}
+		{96C80A2A-4D90-4C80-AA75-E270BCAF664B} = {E0F3701D-D08C-4BDC-BD9A-082D7350E9F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B49643EB-E60D-4837-8F44-AD944F699E08}
+	EndGlobalSection
+EndGlobal
